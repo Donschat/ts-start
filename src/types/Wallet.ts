@@ -1,3 +1,5 @@
+import Transaction from "./transaction"
+
 interface Wallet{
     enable: boolean,
     transactions: Transaction[]
